@@ -1,0 +1,52 @@
+{
+  "task": "INTERNSHIP TASK-2: REST API CLIENT",
+  "student": "RUTUJA PANDHARI KUTHE - ENTC Engineering",
+  "company": "CODTECH IT SOLUTIONS",
+  "api_endpoint": "https://jsonplaceholder.typicode.com/users/1",
+  "request_status": "SUCCESS",
+  "status_code": 200,
+  "response_data": {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  "parsed_output": {
+    "user_information": {
+      "ID": "1",
+      "Name": "Leanne Graham",
+      "Username": "Bret",
+      "Email": "Sincere@april.biz",
+      "Phone": "1-770-736-8031 x56442",
+      "Website": "hildegard.org"
+    },
+    "address_information": {
+      "Street": "Kulas Light",
+      "City": "Gwenborough",
+      "Zipcode": "92998-3874"
+    },
+    "company_information": {
+      "Company": "Romaguera-Crona",
+      "Catch_Phrase": "Multi-layered client-server neural-net"
+    }
+  },
+  "execution_timestamp": "2026-01-31T12:51:33.000Z",
+  "task_status": "COMPLETED"
+}
